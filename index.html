@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammed Imad | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">MI</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1 class="hero-name">Mohammed Imad</h1>
+      <h2 class="hero-role">
+        <span class="typed-text" id="typed-text"></span>
+        <span class="cursor">|</span>
+      </h2>
+      <p class="hero-desc">
+        Passionate about building clean, responsive, and user-friendly web experiences.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Hire Me</a>
+      </div>
+    </div>
+    <div class="hero-avatar">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <span>MI</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── About ── -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About <span>Me</span></h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a web developer with a passion for crafting beautiful digital experiences.
+            I enjoy turning complex problems into simple, elegant solutions.
+          </p>
+          <p>
+            When I'm not coding, you'll find me exploring new technologies, reading about design,
+            or working on side projects that push my skills further.
+          </p>
+          <div class="about-info">
+            <div class="info-item"><span class="info-label">Name</span><span>Mohammed Imad</span></div>
+            <div class="info-item"><span class="info-label">Role</span><span>Web Developer</span></div>
+            <div class="info-item"><span class="info-label">Available</span><span class="badge-available">Open to work</span></div>
+          </div>
+          <a href="#contact" class="btn btn-primary">Get In Touch</a>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number" data-target="10">0</span>
+            <span class="stat-label">Projects Done</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-target="3">0</span>
+            <span class="stat-label">Years Learning</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-target="100">0</span>
+            <span class="stat-label">Cups of Coffee ☕</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-target="5">0</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Skills ── -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <div class="skill-item">
+            <div class="skill-info"><span>HTML5</span><span>90%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>CSS3</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>JavaScript</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>React</span><span>70%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Tools & Others</h3>
+          <div class="skill-item">
+            <div class="skill-info"><span>Git & GitHub</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Responsive Design</span><span>88%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>UI/UX Basics</span><span>75%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Node.js</span><span>60%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Projects ── -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">My <span>Projects</span></h2>
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="app">App</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+      </div>
+      <div class="projects-grid" id="projects-grid">
+
+        <div class="project-card" data-category="web">
+          <div class="project-img">
+            <div class="project-placeholder" style="background: linear-gradient(135deg,#667eea,#764ba2)">🛒</div>
+          </div>
+          <div class="project-info">
+            <h3>E-Commerce Store</h3>
+            <p>A fully responsive online store with cart functionality and checkout flow.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="app">
+          <div class="project-img">
+            <div class="project-placeholder" style="background: linear-gradient(135deg,#f093fb,#f5576c)">✅</div>
+          </div>
+          <div class="project-info">
+            <h3>Task Manager App</h3>
+            <p>A productivity app to manage tasks with drag-and-drop and local storage.</p>
+            <div class="project-tags">
+              <span>JavaScript</span><span>CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="web">
+          <div class="project-img">
+            <div class="project-placeholder" style="background: linear-gradient(135deg,#4facfe,#00f2fe)">🌤️</div>
+          </div>
+          <div class="project-info">
+            <h3>Weather Dashboard</h3>
+            <p>Real-time weather app using a public API with search and geolocation.</p>
+            <div class="project-tags">
+              <span>JavaScript</span><span>API</span><span>CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="design">
+          <div class="project-img">
+            <div class="project-placeholder" style="background: linear-gradient(135deg,#43e97b,#38f9d7)">🎨</div>
+          </div>
+          <div class="project-info">
+            <h3>Portfolio UI Concept</h3>
+            <p>A creative portfolio design concept with animations and dark mode.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>Design</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="app">
+          <div class="project-img">
+            <div class="project-placeholder" style="background: linear-gradient(135deg,#fa709a,#fee140)">💬</div>
+          </div>
+          <div class="project-info">
+            <h3>Chat UI Clone</h3>
+            <p>A messaging app UI with real-time updates simulation and emoji support.</p>
+            <div class="project-tags">
+              <span>JavaScript</span><span>CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="web">
+          <div class="project-img">
+            <div class="project-placeholder" style="background: linear-gradient(135deg,#a18cd1,#fbc2eb)">📰</div>
+          </div>
+          <div class="project-info">
+            <h3>Blog Platform</h3>
+            <p>A clean blog layout with category filtering, search, and dark mode toggle.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contact ── -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In <span>Touch</span></h2>
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <p>Have a project in mind or just want to say hi? I'd love to hear from you. Fill in the form or reach me through any of the channels below.</p>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon">📧</div>
+              <div>
+                <strong>Email</strong>
+                <p>mohammed.imad@email.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <strong>Location</strong>
+                <p>Available Worldwide (Remote)</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">💼</div>
+              <div>
+                <strong>LinkedIn</strong>
+                <p>linkedin.com/in/mohammedimad</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <label for="name">Your Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" required />
+            <label for="email">Your Email</label>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" placeholder="Subject" />
+            <label for="subject">Subject</label>
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message 🚀</button>
+          <p class="form-success" id="form-success">Message sent! I'll get back to you soon.</p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="footer">
+    <div class="container">
+      <p>Designed & Built by <strong>Mohammed Imad</strong></p>
+      <p class="footer-copy">© 2026 All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="#" aria-label="GitHub">GH</a>
+        <a href="#" aria-label="LinkedIn">LI</a>
+        <a href="#" aria-label="Twitter">TW</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
